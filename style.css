@@ -2,7 +2,6 @@
     border: 1px solid black;
     width: 60px;
     border-radius: 10px;
-    font-weight: 700;
     font-size: 19px;
 }
 article{
@@ -25,4 +24,15 @@ main{
 }
 .jatekter p:hover{
    background-color: #80808052;
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 100px;
+}
+.panel{
+    width: 159%;
+}
+.card-body, .card-footer{
+    text-align: center;
 }
